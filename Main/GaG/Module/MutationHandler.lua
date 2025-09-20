@@ -163,6 +163,11 @@ local mutations =
         Color = Color3.fromRGB(234, 184, 146),
         ValueMulti = 32
     },
+    ["Azure"] = {
+        Name = "Azure",
+        Color = Color3.fromRGB(0, 127, 255),
+        ValueMulti = 75
+    },
     ["Radioactive"] = {
         Name = "Radioactive",
         Color = Color3.fromRGB(98, 255, 0),
@@ -225,7 +230,7 @@ local mutations =
     },
     ["Jackpot"] = {
         Name = "Jackpot",
-        Color = Color3.fromRGB(132, 245, 112),
+        Color = Color3.fromRGB(255, 215, 0),
         ValueMulti = 15
     },
     ["Wet"] = {
