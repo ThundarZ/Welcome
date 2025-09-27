@@ -93,10 +93,10 @@ local mutations =
         Color = Color3.fromRGB(67, 167, 0),
         ValueMulti = 75
     },
-    ["Enchanted"] = {
-        Name = "Enchanted",
-        Color = Color3.fromRGB(255, 214, 89),
-        ValueMulti = 50
+    ["Gilded"] = {
+        Name = "Gilded",
+        Color = Color3.fromRGB(255, 206, 58),
+        ValueMulti = 15
     },
     ["Junkshock"] = {
         Name = "Junkshock",
@@ -148,25 +148,45 @@ local mutations =
         Color = Color3.fromRGB(255, 249, 160),
         ValueMulti = 5
     },
+    ["Static"] = {
+        Name = "Static",
+        Color = Color3.fromRGB(255, 255, 0),
+        ValueMulti = 8
+    },
     ["Beanbound"] = {
         Name = "Beanbound",
         Color = Color3.fromRGB(53, 184, 75),
         ValueMulti = 100
     },
-    ["HarmonisedFoxfireChakra"] = {
-        Name = "HarmonisedFoxfireChakra",
+    ["HarmonisedChakra"] = {
+        Name = "HarmonisedChakra",
         Color = Color3.fromRGB(170, 85, 255),
-        ValueMulti = 190
+        ValueMulti = 35
     },
-    ["Ceramic"] = {
-        Name = "Ceramic",
-        Color = Color3.fromRGB(234, 184, 146),
-        ValueMulti = 32
+    ["Subzero"] = {
+        Name = "Subzero",
+        Color = Color3.fromRGB(0, 255, 255),
+        ValueMulti = 40
     },
     ["Azure"] = {
         Name = "Azure",
         Color = Color3.fromRGB(0, 127, 255),
         ValueMulti = 75
+    },
+    ["Plagued"] = {
+        Name = "Plagued",
+        Color = Color3.fromRGB(85, 85, 0),
+        ValueMulti = 102
+    },
+    ["Blazing"] = {
+        Name = "Blazing",
+        Color = Color3.fromRGB(255, 90, 20),
+        ValueMulti = 52
+    },
+    ["Lightcycle"] = {
+        Name = "Lightcycle",
+        Color = Color3.fromRGB(255, 255, 255),
+        ValueMulti = 50
     },
     ["Radioactive"] = {
         Name = "Radioactive",
@@ -178,10 +198,10 @@ local mutations =
         Color = Color3.fromRGB(162, 145, 57),
         ValueMulti = 3
     },
-    ["Lightcycle"] = {
-        Name = "Lightcycle",
-        Color = Color3.fromRGB(255, 255, 255),
-        ValueMulti = 50
+    ["Touchdown"] = {
+        Name = "Touchdown",
+        Color = Color3.fromRGB(203, 95, 0),
+        ValueMulti = 105
     },
     ["Boil"] = {
         Name = "Boil",
@@ -193,10 +213,10 @@ local mutations =
         Color = Color3.fromRGB(255, 0, 255),
         ValueMulti = 120
     },
-    ["Toxic"] = {
-        Name = "Toxic",
-        Color = Color3.fromRGB(85, 255, 0),
-        ValueMulti = 15
+    ["Sundried"] = {
+        Name = "Sundried",
+        Color = Color3.fromRGB(207, 93, 0),
+        ValueMulti = 85
     },
     ["Warped"] = {
         Name = "Warped",
@@ -208,30 +228,30 @@ local mutations =
         Color = Color3.fromRGB(162, 185, 209),
         ValueMulti = 2
     },
-    ["Subzero"] = {
-        Name = "Subzero",
-        Color = Color3.fromRGB(0, 255, 255),
-        ValueMulti = 40
+    ["Jackpot"] = {
+        Name = "Jackpot",
+        Color = Color3.fromRGB(255, 215, 0),
+        ValueMulti = 15
     },
     ["Burnt"] = {
         Name = "Burnt",
         Color = Color3.fromRGB(40, 40, 40),
         ValueMulti = 4
     },
-    ["Touchdown"] = {
-        Name = "Touchdown",
-        Color = Color3.fromRGB(203, 95, 0),
-        ValueMulti = 105
+    ["Graceful"] = {
+        Name = "Graceful",
+        Color = Color3.fromRGB(240, 240, 255),
+        ValueMulti = 77
     },
-    ["Glitched"] = {
-        Name = "Glitched",
-        Color = Color3.fromRGB(240, 96, 228),
-        ValueMulti = 85
+    ["CorruptFoxfireChakra"] = {
+        Name = "CorruptFoxfireChakra",
+        Color = Color3.fromRGB(0, 0, 255),
+        ValueMulti = 90
     },
-    ["Jackpot"] = {
-        Name = "Jackpot",
-        Color = Color3.fromRGB(255, 215, 0),
-        ValueMulti = 15
+    ["Astral"] = {
+        Name = "Astral",
+        Color = Color3.fromRGB(255, 255, 100),
+        ValueMulti = 365
     },
     ["Wet"] = {
         Name = "Wet",
@@ -248,50 +268,50 @@ local mutations =
         Color = Color3.fromRGB(0, 255, 0),
         ValueMulti = 40
     },
-    ["Graceful"] = {
-        Name = "Graceful",
-        Color = Color3.fromRGB(240, 240, 255),
-        ValueMulti = 77
-    },
-    ["HarmonisedChakra"] = {
-        Name = "HarmonisedChakra",
-        Color = Color3.fromRGB(170, 85, 255),
-        ValueMulti = 35
-    },
     ["Maelstrom"] = {
         Name = "Maelstrom",
         Color = Color3.fromRGB(0, 60, 255),
         ValueMulti = 100
-    },
-    ["Rot"] = {
-        Name = "Rot",
-        Color = Color3.fromRGB(85, 0, 127),
-        ValueMulti = 8
     },
     ["Gloom"] = {
         Name = "Gloom",
         Color = Color3.fromRGB(85, 85, 127),
         ValueMulti = 30
     },
+    ["Bloom"] = {
+        Name = "Bloom",
+        Color = Color3.fromRGB(170, 255, 0),
+        ValueMulti = 8
+    },
+    ["Rot"] = {
+        Name = "Rot",
+        Color = Color3.fromRGB(85, 0, 127),
+        ValueMulti = 8
+    },
+    ["Sizzled"] = {
+        Name = "Sizzled",
+        Color = Color3.fromRGB(210, 120, 60),
+        ValueMulti = 18
+    },
     ["Friendbound"] = {
         Name = "Friendbound",
         Color = Color3.fromRGB(255, 0, 127),
         ValueMulti = 70
     },
-    ["Bloom"] = {
-        Name = "Bloom",
-        Color = Color3.fromRGB(170, 255, 0),
-        ValueMulti = 8
+    ["Enlightened"] = {
+        Name = "Enlightened",
+        Color = Color3.fromRGB(255, 255, 255),
+        ValueMulti = 35
     },
     ["Paradisal"] = {
         Name = "Paradisal",
         Color = Color3.fromRGB(176, 240, 0),
         ValueMulti = 100
     },
-    ["Fortune"] = {
-        Name = "Fortune",
-        Color = Color3.fromRGB(255, 192, 5),
-        ValueMulti = 50
+    ["Infernal"] = {
+        Name = "Infernal",
+        Color = Color3.fromRGB(101, 255, 91),
+        ValueMulti = 180
     },
     ["Clay"] = {
         Name = "Clay",
@@ -328,20 +348,20 @@ local mutations =
         Color = Color3.fromRGB(252, 106, 33),
         ValueMulti = 20
     },
-    ["Infernal"] = {
-        Name = "Infernal",
-        Color = Color3.fromRGB(101, 255, 91),
-        ValueMulti = 180
-    },
-    ["Blazing"] = {
-        Name = "Blazing",
-        Color = Color3.fromRGB(255, 90, 20),
-        ValueMulti = 52
-    },
     ["Cloudtouched"] = {
         Name = "Cloudtouched",
         Color = Color3.fromRGB(225, 255, 255),
         ValueMulti = 5
+    },
+    ["Toxic"] = {
+        Name = "Toxic",
+        Color = Color3.fromRGB(85, 255, 0),
+        ValueMulti = 15
+    },
+    ["Tranquil"] = {
+        Name = "Tranquil",
+        Color = Color3.fromRGB(255, 255, 255),
+        ValueMulti = 20
     },
     ["Sandy"] = {
         Name = "Sandy",
@@ -363,20 +383,20 @@ local mutations =
         Color = Color3.fromRGB(52, 52, 77),
         ValueMulti = 15
     },
-    ["Tranquil"] = {
-        Name = "Tranquil",
-        Color = Color3.fromRGB(255, 255, 255),
-        ValueMulti = 20
-    },
-    ["Enlightened"] = {
-        Name = "Enlightened",
-        Color = Color3.fromRGB(255, 255, 255),
-        ValueMulti = 35
-    },
     ["Meatball"] = {
         Name = "Meatball",
         Color = Color3.fromRGB(139, 69, 19),
         ValueMulti = 3
+    },
+    ["Zombified"] = {
+        Name = "Zombified",
+        Color = Color3.fromRGB(128, 199, 127),
+        ValueMulti = 25
+    },
+    ["HarmonisedFoxfireChakra"] = {
+        Name = "HarmonisedFoxfireChakra",
+        Color = Color3.fromRGB(170, 85, 255),
+        ValueMulti = 190
     },
     ["Gnomed"] = {
         Name = "Gnomed",
@@ -393,30 +413,30 @@ local mutations =
         Color = Color3.fromRGB(148, 226, 255),
         ValueMulti = 180
     },
-    ["Static"] = {
-        Name = "Static",
-        Color = Color3.fromRGB(255, 255, 0),
-        ValueMulti = 8
-    },
-    ["CorruptFoxfireChakra"] = {
-        Name = "CorruptFoxfireChakra",
-        Color = Color3.fromRGB(0, 0, 255),
-        ValueMulti = 90
-    },
     ["Chakra"] = {
         Name = "Chakra",
         Color = Color3.fromRGB(255, 80, 65),
         ValueMulti = 15
+    },
+    ["Ceramic"] = {
+        Name = "Ceramic",
+        Color = Color3.fromRGB(234, 184, 146),
+        ValueMulti = 32
+    },
+    ["Pollinated"] = {
+        Name = "Pollinated",
+        Color = Color3.fromRGB(255, 170, 0),
+        ValueMulti = 3
     },
     ["Pasta"] = {
         Name = "Pasta",
         Color = Color3.fromRGB(255, 223, 128),
         ValueMulti = 3
     },
-    ["Pollinated"] = {
-        Name = "Pollinated",
-        Color = Color3.fromRGB(255, 170, 0),
-        ValueMulti = 3
+    ["Disco"] = {
+        Name = "Disco",
+        Color = Color3.fromRGB(255, 105, 180),
+        ValueMulti = 125
     },
     ["Plasma"] = {
         Name = "Plasma",
@@ -433,45 +453,45 @@ local mutations =
         Color = Color3.fromRGB(255, 213, 0),
         ValueMulti = 150
     },
-    ["Zombified"] = {
-        Name = "Zombified",
-        Color = Color3.fromRGB(128, 199, 127),
-        ValueMulti = 25
+    ["Enchanted"] = {
+        Name = "Enchanted",
+        Color = Color3.fromRGB(255, 214, 89),
+        ValueMulti = 50
     },
     ["Wiltproof"] = {
         Name = "Wiltproof",
         Color = Color3.fromRGB(0, 222, 155),
         ValueMulti = 4
     },
-    ["Disco"] = {
-        Name = "Disco",
-        Color = Color3.fromRGB(255, 105, 180),
-        ValueMulti = 125
-    },
     ["Cracked"] = {
         Name = "Cracked",
         Color = Color3.fromRGB(138, 127, 114),
         ValueMulti = 4
+    },
+    ["Glitched"] = {
+        Name = "Glitched",
+        Color = Color3.fromRGB(240, 96, 228),
+        ValueMulti = 85
     },
     ["Blitzshock"] = {
         Name = "Blitzshock",
         Color = Color3.fromRGB(0, 192, 245),
         ValueMulti = 50
     },
-    ["Sundried"] = {
-        Name = "Sundried",
-        Color = Color3.fromRGB(207, 93, 0),
-        ValueMulti = 85
+    ["Galactic"] = {
+        Name = "Galactic",
+        Color = Color3.fromRGB(243, 148, 255),
+        ValueMulti = 120
     },
     ["Voidtouched"] = {
         Name = "Voidtouched",
         Color = Color3.fromRGB(225, 0, 255),
         ValueMulti = 135
     },
-    ["Galactic"] = {
-        Name = "Galactic",
-        Color = Color3.fromRGB(243, 148, 255),
-        ValueMulti = 120
+    ["Severed"] = {
+        Name = "Severed",
+        Color = Color3.fromRGB(186, 211, 223),
+        ValueMulti = 40
     },
     ["Acidic"] = {
         Name = "Acidic",
