@@ -31,6 +31,7 @@ local allPlants = {
     {"Elder Strawberry", 6.000, 90000, 280},
     {"Romanesco", 8.000, 166000, 160},
     {"Crimson Thorn", 6.000, 210000, 400},
+    {"Great Pumpkin", 20.000, 180000, 250},
     {"Broccoli", 4.000, 55555, 100},
     {"Potato", 4.000, 90000, 150},
     {"Brussels Sprout", 3.000, 120000, 150},
@@ -242,6 +243,13 @@ local allPlants = {
     {"Ferntail", 7.000, 2000, 400},
     {"Pecan", 4.250, 100000, 300},
     {"Fissure Berry", 4.000, 13000, 400},
+    {"Bloodred Mushroom", 3.000, 22222, 100},
+    {"Jack O Lantern", 4.500, 33333, 100},
+    {"Ghoul Root", 4.000, 55555, 150},
+    {"Chicken Feed", 6.000, 77777, 200},
+    {"Seer Vine", 2.750, 88888, 300},
+    {"Poison Apple", 3.750, 111111, 350},
+    {"Banesberry", 2.500, 33333, 100},
     {"Mega Mushroom", 70.000, 500, 2000000},
     {"Cherry Blossom", 3.000, 500, 400},
     {"Purple Cabbage", 5.000, 500, 70},
@@ -276,6 +284,8 @@ local allPlants = {
     {"Turkish Hazel", 4.000, 2000, 60},
     {"Crunchnut", 3.000, 2000, 150},
     {"Cherry", 1.000, 28575, 90},
+    {"Hexberry", 4.000, 50000, 900},
+    {"Blood Orange", 3.000, 50000, 120},
 }
 -- Data multiplier varian (variant name, dropChance, multiplier)
 local variants = {
