@@ -250,6 +250,12 @@ local allPlants = {
     {"Seer Vine", 2.750, 88888, 300},
     {"Poison Apple", 3.750, 111111, 350},
     {"Banesberry", 2.500, 33333, 100},
+    {"Candy Cornflower", 1.000, 44444, 200},
+    {"Blood Orange", 3.000, 140000, 200},
+    {"Zombie Fruit", 3.000, 60000, 300},
+    {"Wisp Flower", 2.000, 70000, 250},
+    {"Mummy's Hand", 4.500, 111111, 300},
+    {"Weeping Branch", 8.000, 155555, 200},
     {"Mega Mushroom", 70.000, 500, 2000000},
     {"Cherry Blossom", 3.000, 500, 400},
     {"Purple Cabbage", 5.000, 500, 70},
@@ -285,12 +291,16 @@ local allPlants = {
     {"Crunchnut", 3.000, 2000, 150},
     {"Cherry", 1.000, 28575, 90},
     {"Hexberry", 4.000, 50000, 900},
-    {"Blood Orange", 3.000, 50000, 120},
+    {"Mini Pumpkin", 2.000, 50000, 120},
+    {"Witch Cap", 3.000, 77777, 120},
+    {"Monster Flower", 5.300, 8000, 85},
+    {"Ghost Bush", 5.000, 8000, 120},
+    {"Wereplant", 8.000, 8000, 120},
 }
+
 -- Data multiplier varian (variant name, dropChance, multiplier)
 local variants = {
     {"Normal", 1000, 1},
-    {"Silver", 20, 5},
     {"Gold", 10, 20},
     {"Rainbow", 1, 50}
 }
@@ -317,5 +327,3 @@ function module.Return_Variant_Multiplier(variantName)
 end
 
 return module
-
-
