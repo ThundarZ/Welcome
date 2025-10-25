@@ -256,6 +256,11 @@ local allPlants = {
     {"Wisp Flower", 2.000, 70000, 250},
     {"Mummy's Hand", 4.500, 111111, 300},
     {"Weeping Branch", 8.000, 155555, 200},
+    {"Ghost Bush", 5.000, 30500, 150},
+    {"Devilroot", 3.500, 66666, 166},
+    {"Wereplant", 8.000, 170000, 400},
+    {"Severed Spine", 9.000, 98980, 300},
+    {"Glass Kiwi", 4.000, 65000, 250},
     {"Mega Mushroom", 70.000, 500, 2000000},
     {"Cherry Blossom", 3.000, 500, 400},
     {"Purple Cabbage", 5.000, 500, 70},
@@ -294,10 +299,15 @@ local allPlants = {
     {"Mini Pumpkin", 2.000, 50000, 120},
     {"Witch Cap", 3.000, 77777, 120},
     {"Monster Flower", 5.300, 8000, 85},
-    {"Ghost Bush", 5.000, 8000, 120},
-    {"Wereplant", 8.000, 8000, 120},
+    {"Skull Flower", 4.000, 8000, 120},
+    {"Dryblood Rose", 1.500, 8000, 120},
+    {"Mind Root", 3.000, 8000, 120},
+    {"Vampbloom", 4.750, 4500, 90},
+    {"Ghost Pepper", 4.000, 4500, 120},
+    {"Spider Vine", 4.000, 4500, 120},
+    {"Wyrmvine", 10.000, 12500, 2000},
+    {"Sugarcane", 5.000, 4500, 100},
 }
-
 -- Data multiplier varian (variant name, dropChance, multiplier)
 local variants = {
     {"Normal", 1000, 1},
