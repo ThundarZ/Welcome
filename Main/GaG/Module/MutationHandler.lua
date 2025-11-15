@@ -253,6 +253,11 @@ local mutations =
         Color = Color3.fromRGB(44, 111, 162),
         ValueMulti = 20
     },
+    ["Moist"] = {
+        Name = "Moist",
+        Color = Color3.fromRGB(142, 161, 173),
+        ValueMulti = 3
+    },
     ["Fried"] = {
         Name = "Fried",
         Color = Color3.fromRGB(223, 110, 34),
@@ -363,6 +368,21 @@ local mutations =
         Color = Color3.fromRGB(53, 184, 75),
         ValueMulti = 100
     },
+    ["Geode"] = {
+        Name = "Geode",
+        Color = Color3.fromRGB(255, 0, 0),
+        ValueMulti = 5
+    },
+    ["Charcoal"] = {
+        Name = "Charcoal",
+        Color = Color3.fromRGB(71, 71, 71),
+        ValueMulti = 6
+    },
+    ["Tempered"] = {
+        Name = "Tempered",
+        Color = Color3.fromRGB(255, 96, 17),
+        ValueMulti = 6
+    },
     ["Wildfast"] = {
         Name = "Wildfast",
         Color = Color3.fromRGB(255, 255, 0),
@@ -373,20 +393,25 @@ local mutations =
         Color = Color3.fromRGB(0, 174, 255),
         ValueMulti = 30
     },
-    ["Fortune"] = {
-        Name = "Fortune",
-        Color = Color3.fromRGB(255, 192, 5),
-        ValueMulti = 50
-    },
     ["Twilight"] = {
         Name = "Twilight",
         Color = Color3.fromRGB(170, 170, 255),
         ValueMulti = 4
     },
+    ["Fortune"] = {
+        Name = "Fortune",
+        Color = Color3.fromRGB(255, 192, 5),
+        ValueMulti = 50
+    },
     ["Monsoon"] = {
         Name = "Monsoon",
         Color = Color3.fromRGB(170, 255, 255),
         ValueMulti = 50
+    },
+    ["Webbed"] = {
+        Name = "Webbed",
+        Color = Color3.fromRGB(255, 255, 255),
+        ValueMulti = 8
     },
     ["Boil"] = {
         Name = "Boil",
