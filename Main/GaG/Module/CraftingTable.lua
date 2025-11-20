@@ -2133,10 +2133,10 @@ return {
         },
       },
       [4] = {
-        ["ItemType"] = "Common Coal",
+        ["ItemType"] = "Rare Coal",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Common Coal",
+          ["ItemName"] = "Rare Coal",
         },
       },
     },
