@@ -1535,6 +1535,7 @@ return {
       [1] = {
         ["ItemType"] = "Smith Hammer of Harvest",
         ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
           ["ItemName"] = "Smith Hammer of Harvest",
         },
       },
@@ -1938,6 +1939,7 @@ return {
       [1] = {
         ["ItemType"] = "Smith Hammer of Harvest",
         ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
           ["ItemName"] = "Smith Hammer of Harvest",
         },
       },
