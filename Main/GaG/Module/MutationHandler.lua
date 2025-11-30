@@ -1,7 +1,6 @@
 local module = {}
 
-local mutations = 
-{
+local mutations = {
     ["Tranquil"] = {
         Name = "Tranquil",
         Color = Color3.fromRGB(255, 255, 255),
@@ -21,6 +20,11 @@ local mutations =
         Name = "Cyclonic",
         Color = Color3.fromRGB(130, 230, 255),
         ValueMulti = 50
+    },
+    ["Supernatural"] = {
+        Name = "Supernatural",
+        Color = Color3.fromRGB(79, 28, 110),
+        ValueMulti = 37
     },
     ["Drenched"] = {
         Name = "Drenched",
@@ -183,6 +187,11 @@ local mutations =
         Color = Color3.fromRGB(176, 240, 0),
         ValueMulti = 100
     },
+    ["Snowy"] = {
+        Name = "Snowy",
+        Color = Color3.fromRGB(157, 217, 255),
+        ValueMulti = 5
+    },
     ["Amber"] = {
         Name = "Amber",
         Color = Color3.fromRGB(255, 192, 0),
@@ -253,6 +262,11 @@ local mutations =
         Color = Color3.fromRGB(44, 111, 162),
         ValueMulti = 20
     },
+    ["Grim"] = {
+        Name = "Grim",
+        Color = Color3.fromRGB(6, 7, 23),
+        ValueMulti = 170
+    },
     ["Moist"] = {
         Name = "Moist",
         Color = Color3.fromRGB(142, 161, 173),
@@ -282,6 +296,11 @@ local mutations =
         Name = "Disco",
         Color = Color3.fromRGB(255, 105, 180),
         ValueMulti = 125
+    },
+    ["Coin"] = {
+        Name = "Coin",
+        Color = Color3.fromRGB(255, 216, 0),
+        ValueMulti = 3
     },
     ["Desolate"] = {
         Name = "Desolate",
@@ -323,20 +342,60 @@ local mutations =
         Color = Color3.fromRGB(255, 170, 0),
         ValueMulti = 50
     },
+    ["Fractured"] = {
+        Name = "Fractured",
+        Color = Color3.fromRGB(255, 3, 3),
+        ValueMulti = 92
+    },
     ["Gilded"] = {
         Name = "Gilded",
         Color = Color3.fromRGB(255, 206, 58),
         ValueMulti = 15
+    },
+    ["Snowtouched"] = {
+        Name = "Snowtouched",
+        Color = Color3.fromRGB(209, 209, 209),
+        ValueMulti = 5
     },
     ["Junkshock"] = {
         Name = "Junkshock",
         Color = Color3.fromRGB(147, 247, 0),
         ValueMulti = 45
     },
+    ["Blazing"] = {
+        Name = "Blazing",
+        Color = Color3.fromRGB(255, 90, 20),
+        ValueMulti = 52
+    },
+    ["MindBender"] = {
+        Name = "MindBender",
+        Color = Color3.fromRGB(255, 48, 210),
+        ValueMulti = 175
+    },
+    ["Umbral"] = {
+        Name = "Umbral",
+        Color = Color3.fromRGB(30, 20, 55),
+        ValueMulti = 30
+    },
     ["AscendedChakra"] = {
         Name = "AscendedChakra",
         Color = Color3.fromRGB(255, 255, 0),
         ValueMulti = 230
+    },
+    ["Extraterrestrial"] = {
+        Name = "Extraterrestrial",
+        Color = Color3.fromRGB(17, 0, 255),
+        ValueMulti = 130
+    },
+    ["Riptide"] = {
+        Name = "Riptide",
+        Color = Color3.fromRGB(15, 151, 178),
+        ValueMulti = 80
+    },
+    ["Affluent"] = {
+        Name = "Affluent",
+        Color = Color3.fromRGB(57, 238, 255),
+        ValueMulti = 70
     },
     ["FoxfireChakra"] = {
         Name = "FoxfireChakra",
@@ -347,6 +406,11 @@ local mutations =
         Name = "CorruptChakra",
         Color = Color3.fromRGB(0, 85, 255),
         ValueMulti = 15
+    },
+    ["Stormbound"] = {
+        Name = "Stormbound",
+        Color = Color3.fromRGB(25, 46, 89),
+        ValueMulti = 270
     },
     ["Cooked"] = {
         Name = "Cooked",
@@ -363,15 +427,15 @@ local mutations =
         Color = Color3.fromRGB(255, 255, 255),
         ValueMulti = 25
     },
-    ["Beanbound"] = {
-        Name = "Beanbound",
-        Color = Color3.fromRGB(53, 184, 75),
-        ValueMulti = 100
-    },
     ["Geode"] = {
         Name = "Geode",
         Color = Color3.fromRGB(255, 0, 0),
         ValueMulti = 5
+    },
+    ["Beanbound"] = {
+        Name = "Beanbound",
+        Color = Color3.fromRGB(53, 184, 75),
+        ValueMulti = 100
     },
     ["Charcoal"] = {
         Name = "Charcoal",
@@ -398,15 +462,20 @@ local mutations =
         Color = Color3.fromRGB(170, 170, 255),
         ValueMulti = 4
     },
+    ["Monsoon"] = {
+        Name = "Monsoon",
+        Color = Color3.fromRGB(170, 255, 255),
+        ValueMulti = 50
+    },
     ["Fortune"] = {
         Name = "Fortune",
         Color = Color3.fromRGB(255, 192, 5),
         ValueMulti = 50
     },
-    ["Monsoon"] = {
-        Name = "Monsoon",
-        Color = Color3.fromRGB(170, 255, 255),
-        ValueMulti = 50
+    ["Ornamented"] = {
+        Name = "Ornamented",
+        Color = Color3.fromRGB(34, 102, 50),
+        ValueMulti = 10
     },
     ["Webbed"] = {
         Name = "Webbed",
@@ -603,10 +672,10 @@ local mutations =
         Color = Color3.fromRGB(0, 60, 255),
         ValueMulti = 100
     },
-    ["Umbral"] = {
-        Name = "Umbral",
-        Color = Color3.fromRGB(30, 20, 55),
-        ValueMulti = 30
+    ["Mineral"] = {
+        Name = "Mineral",
+        Color = Color3.fromRGB(112, 88, 71),
+        ValueMulti = 18
     },
     ["Pestilent"] = {
         Name = "Pestilent",
@@ -623,10 +692,10 @@ local mutations =
         Color = Color3.fromRGB(85, 85, 127),
         ValueMulti = 30
     },
-    ["Blazing"] = {
-        Name = "Blazing",
-        Color = Color3.fromRGB(255, 90, 20),
-        ValueMulti = 52
+    ["SunScorched"] = {
+        Name = "SunScorched",
+        Color = Color3.fromRGB(210, 115, 30),
+        ValueMulti = 32
     },
     ["Cloudtouched"] = {
         Name = "Cloudtouched",
@@ -744,26 +813,6 @@ function module:CalcValueMulti(plant)
 
     return math.max(1, valueMulti)
 end
-
-function module:CalcValueMultiFromText(nameWithWeight)
-    if typeof(nameWithWeight) ~= "string" then
-        return 1
-    end
-
-    local valueMulti = 1
-
-    local variantListStr = nameWithWeight:match("^%[(.-)%]")
-    if variantListStr then
-        for v in string.gmatch(variantListStr, "[^,%s]+") do
-            if mutations[v] then
-                valueMulti += (mutations[v].ValueMulti - 1)
-            end
-        end
-    end
-
-    return math.max(1, valueMulti)
-end
-
 
 module.MutationsByName = mutations
 return module
