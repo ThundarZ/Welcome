@@ -125,6 +125,54 @@ return {
       ["Amount"] = 5500000,
     },
   },
+  ["Hollow Bamboo@SeedEventWorkbench"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Hollow Bamboo",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Sprinkler",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Advanced Sprinkler",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Sprinkler",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Godly Sprinkler",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Bamboo",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Cactus",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "SeedEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 5000000,
+    },
+  },
   ["Small Toy"] = {
     ["Outputs"] = {
       [1] = {
@@ -661,52 +709,52 @@ return {
       ["Amount"] = 10000000,
     },
   },
-  ["Nectar Thorn"] = {
+  ["Golden Piggy"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "Seed",
+        ["ItemType"] = "Pet",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Nectar Thorn",
+          ["ItemName"] = "Golden Piggy",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "Holdable",
+        ["ItemType"] = "Pet",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Cactus",
+          ["ItemName"] = "Silver Piggy",
         },
       },
       [2] = {
-        ["ItemType"] = "Holdable",
+        ["ItemType"] = "Food",
         ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Cactus",
+          ["Quantity"] = 1,
+          ["ItemName"] = "Pizza",
         },
       },
       [3] = {
-        ["ItemType"] = "Seed",
+        ["ItemType"] = "Tanning Mirror",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Cactus",
+          ["ItemName"] = "Tanning Mirror",
         },
       },
       [4] = {
-        ["ItemType"] = "Seed",
+        ["ItemType"] = "PetBoost",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Nectarshade",
+          ["ItemName"] = "Medium Treat",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "SeedEventWorkbench",
+      [1] = "GearEventWorkbench",
     },
     ["Cost"] = {
-      ["CurrencyType"] = "Honey",
-      ["Amount"] = 20,
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 300000000,
     },
   },
   ["Aloe Vera"] = {
@@ -1115,6 +1163,88 @@ return {
       ["Amount"] = 4500000,
     },
   },
+  ["Olive@SeedEventWorkbench"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Olive",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Sprinkler",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Basic Sprinkler",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Sprinkler",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Basic Sprinkler",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Grape",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Tomato",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "SeedEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 750000,
+    },
+  },
+  ["Enchanted Seed Pack"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Seed Pack",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Enchanted Seed Pack",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Mushroom",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Mushroom",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "FairyWorldCraftingWorkBench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "FairyPoints",
+      ["Amount"] = 1500,
+    },
+  },
   ["Sprout Egg"] = {
     ["Outputs"] = {
       [1] = {
@@ -1245,6 +1375,80 @@ return {
       ["Amount"] = 1000000,
     },
   },
+  ["Glimmering Crate"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "CosmeticCrate",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Glimmering Crate",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "CosmeticCrate",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Enchanted Crate",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "FairyWorldCraftingWorkBench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "FairyPoints",
+      ["Amount"] = 1000,
+    },
+  },
+  ["Thundelbringer"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Gear",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Thundelbringer",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Smith Hammer of Harvest",
+        ["ItemData"] = {
+          ["ItemName"] = "Smith Hammer of Harvest",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Legendary Coal",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Legendary Coal",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Divine Coal",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Divine Coal",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Lightning Rod",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Lightning Rod",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "SmithingEventGearWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 40000000,
+    },
+  },
   ["Berry Blusher Sprinkler"] = {
     ["Inputs"] = {
       [1] = {
@@ -1287,6 +1491,47 @@ return {
           ["ItemName"] = "Berry Blusher Sprinkler",
         },
       },
+    },
+  },
+  ["Luminous Wand"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Gear",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Luminous Wand",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Fairy Jar",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Fairy Jar",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Fairy Jar",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Fairy Jar",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Fairy Power Extender",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Fairy Power Extender",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "FairyGeniusEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 10000000,
     },
   },
   ["Mutation Spray Chilled"] = {
@@ -1432,6 +1677,54 @@ return {
       ["Amount"] = 7000000,
     },
   },
+  ["Smith Hammer of Harvest"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Gear",
+        ["ItemData"] = {
+          ["Quantity"] = 2,
+          ["ItemName"] = "Smith Hammer of Harvest",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Harvest Tool",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Harvest Tool",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Rare Coal",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Rare Coal",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Rare Coal",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Rare Coal",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Rare Coal",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Rare Coal",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "SmithingEventGearWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 6000000,
+    },
+  },
   ["Hollow Bamboo"] = {
     ["Outputs"] = {
       [1] = {
@@ -1480,6 +1773,47 @@ return {
       ["Amount"] = 1500000,
     },
   },
+  ["Gold Ingot"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Cosmetic",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Gold Ingot",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Giant Pinecone",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Daffodil",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Sprinkler",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Advanced Sprinkler",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GearEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 300000,
+    },
+  },
   ["Shield Statue"] = {
     ["Outputs"] = {
       [1] = {
@@ -1521,93 +1855,93 @@ return {
       ["Amount"] = 10500000,
     },
   },
-  ["Thundelbringer"] = {
+  ["Coal Box"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "Gear",
+        ["ItemType"] = "Cosmetic",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Thundelbringer",
+          ["ItemName"] = "Coal Box",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "Smith Hammer of Harvest",
+        ["ItemType"] = "Common Coal",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Smith Hammer of Harvest",
+          ["ItemName"] = "Common Coal",
         },
       },
       [2] = {
+        ["ItemType"] = "Rare Coal",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Rare Coal",
+        },
+      },
+      [3] = {
         ["ItemType"] = "Legendary Coal",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
           ["ItemName"] = "Legendary Coal",
-        },
-      },
-      [3] = {
-        ["ItemType"] = "Divine Coal",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Divine Coal",
         },
       },
       [4] = {
-        ["ItemType"] = "Lightning Rod",
+        ["ItemType"] = "Seed",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Lightning Rod",
+          ["ItemName"] = "Coconut",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "SmithingEventGearWorkbench",
+      [1] = "SmithingEventCosmeticWorkbench",
     },
     ["Cost"] = {
       ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 40000000,
+      ["Amount"] = 1500000,
     },
   },
-  ["Cheetah"] = {
+  ["Anvil"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "Pet",
+        ["ItemType"] = "Cosmetic",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Cheetah",
+          ["ItemName"] = "Anvil",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "Pet",
+        ["ItemType"] = "Common Coal",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Orange Tabby",
+          ["ItemName"] = "Common Coal",
         },
       },
       [2] = {
-        ["ItemType"] = "Legendary Coal",
+        ["ItemType"] = "Common Coal",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Legendary Coal",
+          ["ItemName"] = "Common Coal",
         },
       },
       [3] = {
-        ["ItemType"] = "Legendary Coal",
+        ["ItemType"] = "Common Coal",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Legendary Coal",
+          ["ItemName"] = "Common Coal",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "SmithingEventPetWorkbench",
+      [1] = "SmithingEventCosmeticWorkbench",
     },
     ["Cost"] = {
       ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 8500000,
+      ["Amount"] = 1500000,
     },
   },
   ["Primal Egg"] = {
@@ -1740,36 +2074,77 @@ return {
       ["Amount"] = 70000000,
     },
   },
-  ["Smith Hammer of Harvest"] = {
+  ["Cheetah"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "Gear",
+        ["ItemType"] = "Pet",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Smith Hammer of Harvest",
+          ["ItemName"] = "Cheetah",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "Harvest Tool",
+        ["ItemType"] = "Pet",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Harvest Tool",
+          ["ItemName"] = "Orange Tabby",
         },
       },
       [2] = {
-        ["ItemType"] = "Rare Coal",
+        ["ItemType"] = "Legendary Coal",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Rare Coal",
+          ["ItemName"] = "Legendary Coal",
         },
       },
       [3] = {
-        ["ItemType"] = "Rare Coal",
+        ["ItemType"] = "Legendary Coal",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Rare Coal",
+          ["ItemName"] = "Legendary Coal",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "SmithingEventPetWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 8500000,
+    },
+  },
+  ["Gem Egg"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Gem Egg",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Common Egg",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Common Coal",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Common Coal",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Common Coal",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Common Coal",
         },
       },
       [4] = {
@@ -1781,52 +2156,11 @@ return {
       },
     },
     ["MachineTypes"] = {
-      [1] = "SmithingEventGearWorkbench",
+      [1] = "SmithingEventPetWorkbench",
     },
     ["Cost"] = {
       ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 6000000,
-    },
-  },
-  ["Anvil"] = {
-    ["Outputs"] = {
-      [1] = {
-        ["ItemType"] = "Cosmetic",
-        ["ItemData"] = {
-          ["Quantity"] = 1,
-          ["ItemName"] = "Anvil",
-        },
-      },
-    },
-    ["Inputs"] = {
-      [1] = {
-        ["ItemType"] = "Common Coal",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Common Coal",
-        },
-      },
-      [2] = {
-        ["ItemType"] = "Common Coal",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Common Coal",
-        },
-      },
-      [3] = {
-        ["ItemType"] = "Common Coal",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Common Coal",
-        },
-      },
-    },
-    ["MachineTypes"] = {
-      [1] = "SmithingEventCosmeticWorkbench",
-    },
-    ["Cost"] = {
-      ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 1500000,
+      ["Amount"] = 1000000,
     },
   },
   ["Olive"] = {
@@ -1877,52 +2211,45 @@ return {
       ["Amount"] = 500000,
     },
   },
-  ["Coal Box"] = {
+  ["Fairy Summoner"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "Cosmetic",
+        ["ItemType"] = "Gear",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Coal Box",
+          ["ItemName"] = "Fairy Summoner",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "Common Coal",
+        ["ItemType"] = "Fairy Jar",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Common Coal",
+          ["ItemName"] = "Fairy Jar",
         },
       },
       [2] = {
-        ["ItemType"] = "Rare Coal",
+        ["ItemType"] = "Fairy Net",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Rare Coal",
+          ["ItemName"] = "Fairy Net",
         },
       },
       [3] = {
-        ["ItemType"] = "Legendary Coal",
+        ["ItemType"] = "Fairy Power Extender",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Legendary Coal",
-        },
-      },
-      [4] = {
-        ["ItemType"] = "Seed",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Coconut",
+          ["ItemName"] = "Fairy Power Extender",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "SmithingEventCosmeticWorkbench",
+      [1] = "FairyGeniusEventWorkbench",
     },
     ["Cost"] = {
       ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 1500000,
+      ["Amount"] = 15000000,
     },
   },
   ["Horse Shoe Magnet"] = {
@@ -1939,7 +2266,6 @@ return {
       [1] = {
         ["ItemType"] = "Smith Hammer of Harvest",
         ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
           ["ItemName"] = "Smith Hammer of Harvest",
         },
       },
@@ -2102,79 +2428,96 @@ return {
       ["Amount"] = 15000000,
     },
   },
-  ["Gem Egg"] = {
-    ["Outputs"] = {
-      [1] = {
-        ["ItemType"] = "PetEgg",
-        ["ItemData"] = {
-          ["Quantity"] = 1,
-          ["ItemName"] = "Gem Egg",
-        },
-      },
-    },
+  ["Evo Apple I"] = {
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "PetEgg",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Common Egg",
+          ["ItemName"] = "Evo Beetroot IV",
         },
       },
       [2] = {
-        ["ItemType"] = "Common Coal",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Common Coal",
+          ["ItemName"] = "Evo Blueberry IV",
         },
       },
       [3] = {
-        ["ItemType"] = "Common Coal",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Common Coal",
+          ["ItemName"] = "Evo Pumpkin IV",
         },
       },
       [4] = {
-        ["ItemType"] = "Rare Coal",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Rare Coal",
+          ["ItemName"] = "Evo Mushroom IV",
+        },
+      },
+      [5] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Sugar Apple",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "SmithingEventPetWorkbench",
+      [1] = "SeedEventWorkbench",
     },
-    ["Cost"] = {
-      ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 1000000,
-    },
-  },
-  ["Glimmering Crate"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "CosmeticCrate",
+        ["ItemType"] = "Seed",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Glimmering Crate",
+          ["ItemName"] = "Evo Apple I",
+        },
+      },
+    },
+  },
+  ["Fairy Net"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Gear",
+        ["ItemData"] = {
+          ["Quantity"] = 20,
+          ["ItemName"] = "Fairy Net",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "CosmeticCrate",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Enchanted Crate",
+          ["ItemName"] = "Sunbulb",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Strawberry",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Harvest Tool",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Harvest Tool",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "FairyWorldCraftingWorkBench",
+      [1] = "FairyGeniusEventWorkbench",
     },
     ["Cost"] = {
       ["CurrencyType"] = "FairyPoints",
-      ["Amount"] = 1000,
+      ["Amount"] = 100,
     },
   },
   ["Evo Apple IV"] = {
@@ -2300,38 +2643,52 @@ return {
       ["Amount"] = 1000000,
     },
   },
-  ["Enchanted Seed Pack"] = {
+  ["Willowberry"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "Seed Pack",
+        ["ItemType"] = "Seed",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Enchanted Seed Pack",
+          ["ItemName"] = "Willowberry",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "Seed",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Mushroom",
+          ["ItemName"] = "Flare Melon",
         },
       },
       [2] = {
-        ["ItemType"] = "Seed",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Mushroom",
+          ["ItemName"] = "Glowpod",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Beanstalk",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "FairyWorldCraftingWorkBench",
+      [1] = "GiantBeanstalkEventWorkbench",
     },
     ["Cost"] = {
-      ["CurrencyType"] = "FairyPoints",
-      ["Amount"] = 1500,
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 5500000,
     },
   },
   ["Stalk Sprout Sprinkler"] = {
@@ -2442,45 +2799,52 @@ return {
       },
     },
   },
-  ["Fairy Summoner"] = {
+  ["Evo Apple II"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "Gear",
+        ["ItemType"] = "Seed",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Fairy Summoner",
+          ["ItemName"] = "Evo Apple II",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "Fairy Jar",
+        ["ItemType"] = "Seed",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Fairy Jar",
+          ["ItemName"] = "Evo Apple I",
         },
       },
       [2] = {
-        ["ItemType"] = "Fairy Net",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Fairy Net",
+          ["ItemName"] = "Evo Apple I",
         },
       },
       [3] = {
-        ["ItemType"] = "Fairy Power Extender",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Fairy Power Extender",
+          ["ItemName"] = "Evo Apple I",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Burning Bud",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "FairyGeniusEventWorkbench",
+      [1] = "SeedEventWorkbench",
     },
     ["Cost"] = {
       ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 15000000,
+      ["Amount"] = 30000000,
     },
   },
   ["Pet Shard GiantBean"] = {
@@ -2579,47 +2943,6 @@ return {
       ["Amount"] = 40,
     },
   },
-  ["Luminous Wand"] = {
-    ["Outputs"] = {
-      [1] = {
-        ["ItemType"] = "Gear",
-        ["ItemData"] = {
-          ["Quantity"] = 1,
-          ["ItemName"] = "Luminous Wand",
-        },
-      },
-    },
-    ["Inputs"] = {
-      [1] = {
-        ["ItemType"] = "Fairy Jar",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Fairy Jar",
-        },
-      },
-      [2] = {
-        ["ItemType"] = "Fairy Jar",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Fairy Jar",
-        },
-      },
-      [3] = {
-        ["ItemType"] = "Fairy Power Extender",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Fairy Power Extender",
-        },
-      },
-    },
-    ["MachineTypes"] = {
-      [1] = "FairyGeniusEventWorkbench",
-    },
-    ["Cost"] = {
-      ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 10000000,
-    },
-  },
   ["Skyroot Chest"] = {
     ["Outputs"] = {
       [1] = {
@@ -2666,6 +2989,54 @@ return {
     ["Cost"] = {
       ["CurrencyType"] = "Sheckles",
       ["Amount"] = 7500000,
+    },
+  },
+  ["Grand Volcania"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Grand Volcania",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Ember Lily",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Ember Lily",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Dinosaur Egg",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Seed Pack",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Ancient Seed Pack",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "SeedEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 900000,
     },
   },
   ["Reclaimer"] = {
@@ -2736,45 +3107,52 @@ return {
       ["Amount"] = 25,
     },
   },
-  ["Fairy Net"] = {
+  ["Veinpetal"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "Gear",
+        ["ItemType"] = "Seed",
         ["ItemData"] = {
-          ["Quantity"] = 20,
-          ["ItemName"] = "Fairy Net",
+          ["Quantity"] = 1,
+          ["ItemName"] = "Veinpetal",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "Holdable",
+        ["ItemType"] = "Seed",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Sunbulb",
+          ["ItemName"] = "Orange Tulip",
         },
       },
       [2] = {
         ["ItemType"] = "Seed",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Strawberry",
+          ["ItemName"] = "Daffodil",
         },
       },
       [3] = {
-        ["ItemType"] = "Harvest Tool",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Harvest Tool",
+          ["ItemName"] = "Beanstalk",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Burning Bud",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "FairyGeniusEventWorkbench",
+      [1] = "SeedEventWorkbench",
     },
     ["Cost"] = {
-      ["CurrencyType"] = "FairyPoints",
-      ["Amount"] = 100,
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 650000,
     },
   },
   ["Bean Pool Table"] = {
@@ -2900,52 +3278,52 @@ return {
       ["Amount"] = 80,
     },
   },
-  ["Willowberry"] = {
+  ["Yarrow@SeedEventWorkbench"] = {
     ["Outputs"] = {
       [1] = {
         ["ItemType"] = "Seed",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Willowberry",
+          ["ItemName"] = "Yarrow",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "Holdable",
+        ["ItemType"] = "Sprinkler",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Flare Melon",
+          ["ItemName"] = "Master Sprinkler",
         },
       },
       [2] = {
-        ["ItemType"] = "Holdable",
+        ["ItemType"] = "Sprinkler",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Glowpod",
+          ["ItemName"] = "Master Sprinkler",
         },
       },
       [3] = {
         ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Beanstalk",
+          ["ItemName"] = "Burning Bud",
         },
       },
       [4] = {
-        ["ItemType"] = "Holdable",
+        ["ItemType"] = "Seed",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Beanstalk",
+          ["ItemName"] = "Daffodil",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "GiantBeanstalkEventWorkbench",
+      [1] = "SeedEventWorkbench",
     },
     ["Cost"] = {
       ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 5500000,
+      ["Amount"] = 18000000,
     },
   },
   ["Crafters Seed Pack"] = {
@@ -3009,201 +3387,6 @@ return {
       ["Amount"] = 5000000,
     },
   },
-  ["Grand Volcania"] = {
-    ["Outputs"] = {
-      [1] = {
-        ["ItemType"] = "Seed",
-        ["ItemData"] = {
-          ["Quantity"] = 1,
-          ["ItemName"] = "Grand Volcania",
-        },
-      },
-    },
-    ["Inputs"] = {
-      [1] = {
-        ["ItemType"] = "Holdable",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Ember Lily",
-        },
-      },
-      [2] = {
-        ["ItemType"] = "Holdable",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Ember Lily",
-        },
-      },
-      [3] = {
-        ["ItemType"] = "PetEgg",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Dinosaur Egg",
-        },
-      },
-      [4] = {
-        ["ItemType"] = "Seed Pack",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Ancient Seed Pack",
-        },
-      },
-    },
-    ["MachineTypes"] = {
-      [1] = "SeedEventWorkbench",
-    },
-    ["Cost"] = {
-      ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 900000,
-    },
-  },
-  ["Veinpetal"] = {
-    ["Outputs"] = {
-      [1] = {
-        ["ItemType"] = "Seed",
-        ["ItemData"] = {
-          ["Quantity"] = 1,
-          ["ItemName"] = "Veinpetal",
-        },
-      },
-    },
-    ["Inputs"] = {
-      [1] = {
-        ["ItemType"] = "Seed",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Orange Tulip",
-        },
-      },
-      [2] = {
-        ["ItemType"] = "Seed",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Daffodil",
-        },
-      },
-      [3] = {
-        ["ItemType"] = "Holdable",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Beanstalk",
-        },
-      },
-      [4] = {
-        ["ItemType"] = "Holdable",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Burning Bud",
-        },
-      },
-    },
-    ["MachineTypes"] = {
-      [1] = "SeedEventWorkbench",
-    },
-    ["Cost"] = {
-      ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 650000,
-    },
-  },
-  ["Evo Apple II"] = {
-    ["Outputs"] = {
-      [1] = {
-        ["ItemType"] = "Seed",
-        ["ItemData"] = {
-          ["Quantity"] = 1,
-          ["ItemName"] = "Evo Apple II",
-        },
-      },
-    },
-    ["Inputs"] = {
-      [1] = {
-        ["ItemType"] = "Seed",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Evo Apple I",
-        },
-      },
-      [2] = {
-        ["ItemType"] = "Holdable",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Evo Apple I",
-        },
-      },
-      [3] = {
-        ["ItemType"] = "Holdable",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Evo Apple I",
-        },
-      },
-      [4] = {
-        ["ItemType"] = "Seed",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Burning Bud",
-        },
-      },
-    },
-    ["MachineTypes"] = {
-      [1] = "SeedEventWorkbench",
-    },
-    ["Cost"] = {
-      ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 30000000,
-    },
-  },
-  ["Evo Apple I"] = {
-    ["Inputs"] = {
-      [1] = {
-        ["ItemType"] = "Holdable",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Evo Beetroot IV",
-        },
-      },
-      [2] = {
-        ["ItemType"] = "Holdable",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Evo Blueberry IV",
-        },
-      },
-      [3] = {
-        ["ItemType"] = "Holdable",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Evo Pumpkin IV",
-        },
-      },
-      [4] = {
-        ["ItemType"] = "Holdable",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Evo Mushroom IV",
-        },
-      },
-      [5] = {
-        ["ItemType"] = "Seed",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Sugar Apple",
-        },
-      },
-    },
-    ["MachineTypes"] = {
-      [1] = "SeedEventWorkbench",
-    },
-    ["Outputs"] = {
-      [1] = {
-        ["ItemType"] = "Seed",
-        ["ItemData"] = {
-          ["Quantity"] = 1,
-          ["ItemName"] = "Evo Apple I",
-        },
-      },
-    },
-  },
   ["Mutation Spray Amber"] = {
     ["Outputs"] = {
       [1] = {
@@ -3238,72 +3421,52 @@ return {
       ["Amount"] = 1000000,
     },
   },
-  ["Mutation Spray Shocked"] = {
+  ["Nectar Thorn"] = {
     ["Outputs"] = {
       [1] = {
-        ["ItemType"] = "Gear",
+        ["ItemType"] = "Seed",
         ["ItemData"] = {
           ["Quantity"] = 1,
-          ["ItemName"] = "Mutation Spray Shocked",
+          ["ItemName"] = "Nectar Thorn",
         },
       },
     },
     ["Inputs"] = {
       [1] = {
-        ["ItemType"] = "SprayBottle",
+        ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Cleaning Spray",
-        },
-      },
-      [2] = {
-        ["ItemType"] = "Lightning Rod",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Lightning Rod",
-        },
-      },
-    },
-    ["MachineTypes"] = {
-      [1] = "GearEventWorkbench",
-    },
-    ["Cost"] = {
-      ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 1000000,
-    },
-  },
-  ["Event Lantern"] = {
-    ["Outputs"] = {
-      [1] = {
-        ["ItemType"] = "Gear",
-        ["ItemData"] = {
-          ["Quantity"] = 30,
-          ["ItemName"] = "Event Lantern",
-        },
-      },
-    },
-    ["Inputs"] = {
-      [1] = {
-        ["ItemType"] = "Recall Wrench",
-        ["ItemData"] = {
-          ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Recall Wrench",
+          ["ItemName"] = "Cactus",
         },
       },
       [2] = {
         ["ItemType"] = "Holdable",
         ["ItemData"] = {
           ["AcceptAllTypes"] = false,
-          ["ItemName"] = "Apple",
+          ["ItemName"] = "Cactus",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Cactus",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Nectarshade",
         },
       },
     },
     ["MachineTypes"] = {
-      [1] = "GearEventWorkbench",
+      [1] = "SeedEventWorkbench",
     },
     ["Cost"] = {
-      ["CurrencyType"] = "Sheckles",
-      ["Amount"] = 350000,
+      ["CurrencyType"] = "Honey",
+      ["Amount"] = 20,
     },
   },
   ["Bee Balm"] = {
@@ -3382,6 +3545,211 @@ return {
           ["ItemName"] = "Flower Froster Sprinkler",
         },
       },
+    },
+  },
+  ["Chimera Stone"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Gear",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Chimera Stone",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Mythical Egg",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Bug Egg",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Jungle Egg",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "PetEgg",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Gem Egg",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GearEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 500000000,
+    },
+  },
+  ["Mutation Spray Shocked"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Gear",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Mutation Spray Shocked",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "SprayBottle",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Cleaning Spray",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Lightning Rod",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Lightning Rod",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GearEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 1000000,
+    },
+  },
+  ["Event Lantern"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Gear",
+        ["ItemData"] = {
+          ["Quantity"] = 30,
+          ["ItemName"] = "Event Lantern",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Recall Wrench",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Recall Wrench",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Apple",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GearEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 350000,
+    },
+  },
+  ["Silver Piggy"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Pet",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Silver Piggy",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Pet",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Pig",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Food",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Sushi",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Lightning Rod",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Lightning Rod",
+        },
+      },
+      [4] = {
+        ["ItemType"] = "PetBoost",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Medium Toy",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GearEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 150000000,
+    },
+  },
+  ["Silver Ingot"] = {
+    ["Outputs"] = {
+      [1] = {
+        ["ItemType"] = "Cosmetic",
+        ["ItemData"] = {
+          ["Quantity"] = 1,
+          ["ItemName"] = "Silver Ingot",
+        },
+      },
+    },
+    ["Inputs"] = {
+      [1] = {
+        ["ItemType"] = "Holdable",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Sugar Apple",
+        },
+      },
+      [2] = {
+        ["ItemType"] = "Seed",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Buttercup",
+        },
+      },
+      [3] = {
+        ["ItemType"] = "Sprinkler",
+        ["ItemData"] = {
+          ["AcceptAllTypes"] = false,
+          ["ItemName"] = "Basic Sprinkler",
+        },
+      },
+    },
+    ["MachineTypes"] = {
+      [1] = "GearEventWorkbench",
+    },
+    ["Cost"] = {
+      ["CurrencyType"] = "Sheckles",
+      ["Amount"] = 150000,
     },
   },
   ["Manuka Flower"] = {
