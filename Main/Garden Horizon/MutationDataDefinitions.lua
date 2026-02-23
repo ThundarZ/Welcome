@@ -1,5 +1,4 @@
-local module = {}
-local mutations = {
+local v1 = {
     ["Sandy"] = {
         ["id"] = "Sandy",
         ["priceMultiplier"] = 2.5,
@@ -71,14 +70,4 @@ local mutations = {
         ["color"] = "#4A6741"
     }
 }
-
-function module.GetMutations()
-    local list = {}
-    for _, data in pairs(mutations) do
-        table.insert(list, data)
-    end
-    return list
-end
-
-module.MutationsByName = mutations
-return module
+return v1
