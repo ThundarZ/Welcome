@@ -1,5 +1,3 @@
-local module = {}
-
 local AllPlants = {
     {"Amberpine", 400},
     {"Apple", 270},
@@ -29,9 +27,4 @@ local AllPlants = {
     {"Tomato", 60},
     {"Wheat", 7200},
 }
-
-function module.Return_All_Data()
-    return AllPlants
-end
-
-return module
+return AllPlants
