@@ -1,4 +1,4 @@
-local v1 = {
+return {
     ["Sandy"] = {
         ["id"] = "Sandy",
         ["priceMultiplier"] = 2.5,
@@ -69,5 +69,4 @@ local v1 = {
         ["priceMultiplier"] = 3.5,
         ["color"] = "#4A6741"
     }
-}
-return v1
+};
