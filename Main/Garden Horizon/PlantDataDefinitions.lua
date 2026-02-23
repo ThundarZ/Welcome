@@ -30,4 +30,8 @@ local AllPlants = {
     {"Wheat", 7200},
 }
 
+function module.Return_All_Data()
+    return allPlants
+end
+
 return module
