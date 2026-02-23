@@ -1,0 +1,33 @@
+local module = {}
+
+local AllPlants = {
+    {"Amberpine", 400},
+    {"Apple", 270},
+    {"Banana", 750},
+    {"Beetroot", 2000},
+    {"Bellpepper", 50},
+    {"Birch", 500},
+    {"Cabbage", 60000},
+    {"Carrot", 30},
+    {"Cherry", 8000},
+    {"Corn", 15},
+    {"Dandelion", 45},
+    {"Dawnblossom", 12000},
+    {"Dawnfruit", 600},
+    {"Emberwood", 2200},
+    {"Goldenberry", 65},
+    {"Mushroom", 40},
+    {"Olive", 10000},
+    {"Onion", 220},
+    {"Orange", 1800},
+    {"Plum", 1000},
+    {"Pomaganit", 1},
+    {"Potato", 1500},
+    {"Rose", 320},
+    {"Strawberry", 32},
+    {"Sunpetal", 60},
+    {"Tomato", 60},
+    {"Wheat", 7200},
+}
+
+return module
